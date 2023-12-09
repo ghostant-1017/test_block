@@ -1,0 +1,17 @@
+[package]
+name = "test_block"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+snarkvm = "*"
+indexmap = "*"
+anyhow = "1"
+time = "*"
+rand = "0.8"
+[dependencies.rand_chacha]
+version = "0.3.0"
+default-features = false
+
